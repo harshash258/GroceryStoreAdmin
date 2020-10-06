@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Acitivity.EditProduct">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rl1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/editProductName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@+id/edit_name"
+                android:text="@string/productname"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="italic"/>
+
+            <ImageButton
+                android:id="@+id/edit_name"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="80dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_edit" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:padding="15dp"
+            android:layout_below="@+id/rl1"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/editProductDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@+id/edit_description"
+                android:text="@string/description"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:scrollbars="vertical"/>
+
+            <ImageButton
+                android:id="@+id/edit_description"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="80dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_edit" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:padding="15dp"
+            android:layout_below="@+id/rl2"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/editProductPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@+id/edit_price"
+                android:text="@string/product_price"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/edit_price"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="80dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_edit" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:padding="15dp"
+            android:layout_below="@+id/rl3"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/oldImage"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/border"
+                android:padding="5dp"
+                android:contentDescription="@string/todo" />
+
+            <ImageButton
+                android:id="@+id/edit_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="80dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_edit" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnUpdateProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/roundbutton"
+            android:padding="15dp"
+            android:text="@string/update_product"
+            android:textAlignment="center"
+            android:textColor="#d8ff17"
+            android:textSize="18sp"
+            android:layout_below="@+id/rl4"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+</ScrollView>

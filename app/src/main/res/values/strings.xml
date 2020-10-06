@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Grocery Store Admin</string>
+    <string name="product_info"><u>Product Information</u></string>
+    <string name="todo">Edit Information</string>
+    <string name="productname">ProductName</string>
+    <string name="description">Product Description</string>
+    <string name="product_price">Product Price</string>
+    <string name="edit_product_image">Edit Product Image</string>
+    <string name="update_product">Update Product</string>
+    <string name="product_description">Product Description</string>
+
+    <string name="choose_product_image">choose Product Image</string>
+    <string name="upload_product">Upload Product</string>
+    <string name="shop_name">Shop Name:</string>
+    <string name="edit_shop_name">Edit Shop Name</string>
+    <string name="address">Address:</string>
+    <string name="choose_image">Choose Image</string>
+</resources>

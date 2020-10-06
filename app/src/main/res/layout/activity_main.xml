@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Acitivity.MainActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_addProduct"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/button"
+            android:text="Add a Product"
+            android:textColor="#eee"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btn_viewProduct"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_toEndOf="@+id/btn_addProduct"
+            android:background="@drawable/button"
+            android:text="View or Edit Product"
+            android:textColor="#eee"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl1"
+        android:layout_marginBottom="20dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_CurrentOrder"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/button"
+            android:text="Current Order"
+            android:textColor="#eee"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btn_previous_Order"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_toEndOf="@+id/btn_CurrentOrder"
+            android:background="@drawable/button"
+            android:text="Previous Order"
+            android:textColor="#eee"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl2"
+        android:layout_marginBottom="20dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_About"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/button"
+            android:text="About"
+            android:textColor="#eee"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_toEndOf="@+id/btn_About"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button"
+            android:text="Image Slider"
+            android:textColor="#eee"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

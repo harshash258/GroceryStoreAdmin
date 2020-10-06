@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mycompany.grocerystoreadmin">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Acitivity.RejectedOrderProduct"/>
+        <activity android:name=".Acitivity.SuccessOrderProduct" />
+        <activity android:name=".Acitivity.DisplayOrderProducts" />
+        <activity android:name=".Acitivity.RejectedOrder" />
+        <activity android:name=".Acitivity.SuccessOrder" />
+        <activity android:name=".Acitivity.PreviousOrder" />
+        <activity android:name=".Acitivity.DisplayOrderDetails" />
+        <activity android:name=".Acitivity.CurrentOrders" />
+        <activity android:name=".Acitivity.ImageSlider" />
+        <activity android:name=".Acitivity.About" />
+        <activity android:name=".Acitivity.EditProduct" />
+        <activity android:name=".Acitivity.ViewandEditProduct" />
+        <activity android:name=".Acitivity.AddProduct" />
+        <activity android:name=".Acitivity.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Acitivity.Login" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
